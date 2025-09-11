@@ -28,7 +28,7 @@ def daily_mean(data):
     """Calculate the daily mean of a 2D inflammation data array.
 
     :param data: A 2D array of inflammation data for each patient for each day.
-    :returns: An array of mean values of measuremtns for each day.
+    :returns: An array of mean values of measurements for each day.
     """
     return np.mean(data, axis=0)
 
@@ -37,7 +37,7 @@ def daily_max(data):
     """Calculate the daily max of a 2d inflammation data array.
     
     :param data: A 2D array of inflammation data for each patient for each day.
-    :returns: An array of max values of measuremtns for each day.
+    :returns: An array of max values of measurements for each day.
     """
     return np.max(data, axis=0)
 
@@ -46,7 +46,7 @@ def daily_min(data):
     """Calculate the daily min of a 2d inflammation data array.
     
     :param data: A 2D array of inflammation data for each patient for each day.
-    :returns: An array of min values of measuremtns for each day.
+    :returns: An array of min values of measurements for each day.
     """
     return np.min(data, axis=0)
 
