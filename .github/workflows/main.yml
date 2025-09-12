@@ -11,6 +11,8 @@ jobs:
     # Specify OS
     runs-on: ubuntu-latest
     
+    steps:
+    
     # A job is a sequence of steps
     - name: Checkout repository
       uses: actions/checkout@v4
